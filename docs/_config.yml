@@ -1,0 +1,15 @@
+remote_theme: ddc-java/ddc-day
+repository_links:
+  enabled: false
+page_navigator:
+  enabled: true
+titles_from_headings:
+  enabled: false
+
+# Modify the contents below for the specific project. NOTE THE INDENTATION!
+
+title: "My Project"
+description: "A Java development project."
+author:
+  name: "Java + Android Student"
+  copyright: true
