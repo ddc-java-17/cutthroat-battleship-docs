@@ -9,40 +9,95 @@ order: 0
 
 ## Summary
 
-Replace this paragraph with one or more paragraphs summarizing the purpose and operation of software you are planning to develop for this project.
-
-{: menu="Users" }
+Have you ever thought Battleship was too friendly of a game?  Do you think the pig-pile is a great war-time tactic?  Cutthroat Battleship has both!  Cutthroat Battleship is a multi-player game app taking Battleship! to another level. In a game designed for 2-6 players, you may fight up to five other players!  
+Turn-based game-play allows each player to see the effect of the other players shots.  Each player in an n-player game gets n shots to fire at whomever they choose. At the end of each players turn, the results of their shots are displayed on EVERYBODY'S screen. Just watch what happens when the first ship is located - ON ANY SCREEN!
 ## Intended users & user stories
+{: menu="Users" }
 
-Write a bullet list here, including at least 2 different types of intended users. Make it reasonably specific; simply saying "Anyone who likes games" (for example) is not sufficiently specific.
+Cutthroat Battleship appeals to two types of players; the player who enjoys the challenges of multi-player gaming, and the player who enjoys piling on to someone who is already being shot at.
 
-For each type of intended user, include at least 1 _user story_. A user story is usually just 1 simple sentence (no more than 2 sentences), in the voice of the intended user, stating a specific task that the user performs using the app, and the benefit that will be obtained. The simplest user stories take the form 
+* Players who enjoy challenges.
 
-> As a <type of intended user (_who_)> I want to <use of specific feature or functionality (_what_)> so that <benefit (_why_).
+  > As someone who enjoys challenging multi-player games, I play this game because winning takes a keen understanding of game theory and not just a little luck.
 
-Please avoid writing too much for the user story. In particular, if the way the user story is written makes it difficult to see the _who_, _what_, and _why_, then you probably need to re-write it more directly. (On the other hand, a user story should not simply be a re-statement of the intended user description.)
+* Players who enjoy pig-piling.
 
-Here is one (silly) example of an intended user, along with a user story. Please note not only the conceptual structure, but the Markdown syntax used.
+  > As someone who enjoys creating misery, I play this game because I can use all my shots to sink an entire ship in one turn!
 
-* People who like to use randomness in their decision-making.
-
-    > As someone who enjoys randomness in my life, I use this app to flip a virtual coin or roll one or more virtual dice, so that I can base my decisions on randomness without having to carry coins or dice in my pockets.
 
 ## Functionality
 
-List (using a bullet list---or ordered list, if order is relevant) the key functional aspects that will be provided by the app---i.e., tell us what the user will be able to do using the app. This should not simply be a re-statement of the [summary](#summary), but should instead provide a more specific articulation of the functionality and user experience. 
+The player will be able to see all play screen with the results of everybody's shots.
+  * Swipe left/right to see any play screen
+  * Select location of shot placement
+  * See placement of their own ships
+  * See game statistics including current rank and number of games played
 
-{: menu="Persistence" }
 ## Persistent data
+{: menu="Persistence" }
 
-Using a bullet list, list what content will be maintained in non-volatile storage---including filesystems, relational or non-relational databases, a thord-party cloud-based storage service, etc.
+The app will store the following peristent data
+* User
+  * Display name
+  * OAuth2.0 identifier
+  * Timestamp of first login to the app
+* Game
+  * Number of games played
+  * Game difficulty (# of players)
+  * Current rank
+  
 
-{: menu="Services" }
+    
 ## Device/external services
+{: menu="Services" }
 
-If any component of the system will utilize (or even require) an external service, or a host service separate from the components of this project, beyond the components for the persistence summarized above, list them here.
+* Google sign-in service (Mandatory)
+	> This service will be used to sign-in/out of your account on our app.
 
-{: menu="Stretch goals" }
+	> If the service is interrupted, players will not be able to access there accounts.
+	
+* Internet access (Mandatory)
+	> This service will connect our app to the internet, allowing you to find other players for a game.
+
+	> If this service is interrupted, the user will not be able to get into a game.
+	
+* Location services (Optional) (stretch goal)
+	> Location  |  Android Developers
+
+	> This service will allow users to find other users near by and join/invite them to a game.
+
+	> If this service is interrupted or not allowed, users will not be able to find other near by users for a game.
+	
+* Messaging services (optional) (stretch goal)
+	> Send simple data to other apps  |  Android Developers
+
+	> This service will allow users to send friends/family texts messages inviting them to a game they have created.
+
+	> If this service is interrupted or not allowed, users won’t be able to use texts as a means of inviting other users to a game.
+	
+* Cutthroat Battleship API
+	> Not created yet
+
+	> API will take user requests to enter a game defined by certain number of players; take in a salvo from players and return if shots were hits, misses, or kills; track which players have been eliminated.
+
+	> If interrupted, there would be no game/ game would crash.
+	
+* Vibrator
+	> Vibrator  |  Android Developers
+
+	> Will vibrate the phone when your ships have been hit, when your ships have been sunk, and when it’s the start of your turn.
+
+	> If service is interrupted, phone won’t vibrate when the above actions occur.
+	
+* Media Player
+	> MediaPlayer  |  Android Developers
+
+	> Will allow the app to play sound effects according to what happens in the game.
+
+	> If interrupted, the sound effects will not be played.
+
+  
 ## Stretch goals and possible enhancements 
+{: menu="Stretch goals" }
 
 If you can identify functional elements of the software that you think might not be achievable in the scope of the project, but which would nonetheless add significant value if you were able to include them, list them here. For now, we recommend listing them in order of complexity/amount of work, from the least to the most.
