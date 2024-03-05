@@ -14,7 +14,7 @@ Turn-based game-play allows each player to see the effect of the other players s
 ## Intended users & user stories
 {: menu="Users" }
 
-Cutthroat Battleship appeals to two types of players; the player who enjoys the challenges of multi-player gaming, and the player who enjoys piling on to someone who is already being shot at.
+Jata appeals to two types of players; the player who enjoys the challenges of multi-player gaming, and the player who enjoys piling on to someone who is already being shot at.
 
 * Players who enjoy challenges.
 
@@ -75,7 +75,7 @@ The app will store the following peristent data
 
 	> If this service is interrupted or not allowed, users won’t be able to use texts as a means of inviting other users to a game.
 	
-* Cutthroat Battleship API
+* Jata API
 	> Not created yet
 
 	> API will take user requests to enter a game defined by certain number of players; take in a salvo from players and return if shots were hits, misses, or kills; track which players have been eliminated.
