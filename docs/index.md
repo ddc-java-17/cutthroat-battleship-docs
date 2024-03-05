@@ -14,7 +14,7 @@ Turn-based game-play allows each player to see the effect of the other players s
 ## Intended users & user stories
 {: menu="Users" }
 
-Cutthroat Battleship appeals to two types of players; the player who enjoys the challenges of multi-player gaming, and the player who enjoys piling on to someone who is already being shot at.
+Jata appeals to two types of players; the player who enjoys the challenges of multi-player gaming, and the player who enjoys piling on to someone who is already being shot at.
 
 * Players who enjoy challenges.
 
@@ -51,8 +51,52 @@ The app will store the following peristent data
 ## Device/external services
 {: menu="Services" }
 
-If the client component will need to access special services of the device (e.g., sensors, contacts, messaging), list them here using a bullet list. Also, if the client component will need to access already-existing external services (e.g., real-time weather data, Open Movie Database, Open Trivia Database), those should also be listed here; any such references to external services should include links to the main page or API description page for the service.
+* Google sign-in service (Mandatory)
+	> This service will be used to sign-in/out of your account on our app.
 
+	> If the service is interrupted, players will not be able to access there accounts.
+	
+* Internet access (Mandatory)
+	> This service will connect our app to the internet, allowing you to find other players for a game.
+
+	> If this service is interrupted, the user will not be able to get into a game.
+	
+* Location services (Optional) (stretch goal)
+	> Location  |  Android Developers
+
+	> This service will allow users to find other users near by and join/invite them to a game.
+
+	> If this service is interrupted or not allowed, users will not be able to find other near by users for a game.
+	
+* Messaging services (optional) (stretch goal)
+	> Send simple data to other apps  |  Android Developers
+
+	> This service will allow users to send friends/family texts messages inviting them to a game they have created.
+
+	> If this service is interrupted or not allowed, users won’t be able to use texts as a means of inviting other users to a game.
+	
+* Jata API
+	> Not created yet
+
+	> API will take user requests to enter a game defined by certain number of players; take in a salvo from players and return if shots were hits, misses, or kills; track which players have been eliminated.
+
+	> If interrupted, there would be no game/ game would crash.
+	
+* Vibrator
+	> Vibrator  |  Android Developers
+
+	> Will vibrate the phone when your ships have been hit, when your ships have been sunk, and when it’s the start of your turn.
+
+	> If service is interrupted, phone won’t vibrate when the above actions occur.
+	
+* Media Player
+	> MediaPlayer  |  Android Developers
+
+	> Will allow the app to play sound effects according to what happens in the game.
+
+	> If interrupted, the sound effects will not be played.
+
+  
 ## Stretch goals and possible enhancements 
 {: menu="Stretch goals" }
 
