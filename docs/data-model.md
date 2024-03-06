@@ -8,8 +8,8 @@ erd:
   image: img/erd.svg
   pdf: pdf/erd.pdf
 uml:
-  image: img/uml.svg
-  pdf: pdf/uml.pdf
+  image: img/uml-server-side.svg
+  pdf: pdf/uml-server-side.pdf
 ---
 
 {% include ddc-abbreviations.md %}
