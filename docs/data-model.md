@@ -21,10 +21,10 @@ uml:
 {% include ddl.md %}
 
 ## Entity Classes
-- [`edu.cnm.deepdive.jata.entity.Game`](api/src-html/edu/cnm/deepdive/jata/model/entity/Game.html){:target="_blank"}
-- [`edu.cnm.deepdive.jata.entity.User`](api/src-html/edu/cnm/deepdive/jata/model/entity/User.html){:target="_blank"}
-- [`edu.cnm.deepdive.jata.entity.UserGame`](api/src-html/edu/cnm/deepdive/jata/model/entity/UserGame.html){:target="_blank"}
-- [`edu.cnm.deepdive.jata.entity.Fleet`](api/src-html/edu/cnm/deepdive/jata/model/entity/Fleet.html){:target="_blank"}
-- [`edu.cnm.deepdive.jata.entity.Ship`](api/src-html/edu/cnm/deepdive/jata/model/entity/Ship.html){:target="_blank"}
-- [`edu.cnm.deepdive.jata.entity.Shot`](api/src-html/edu/cnm/deepdive/jata/model/entity/Shot.html){:target="_blank"}
+- [`edu.cnm.deepdive.jata.entity.Game`](https://github.com/ddc-java-17/jata-service/blob/main/src/main/java/edu/cnm/deepdive/jata/model/entity/Game.java){:target="_blank"}
+- [`edu.cnm.deepdive.jata.entity.User`](https://github.com/ddc-java-17/jata-service/blob/main/src/main/java/edu/cnm/deepdive/jata/model/entity/User.java){:target="_blank"}
+- [`edu.cnm.deepdive.jata.entity.UserGame`](https://github.com/ddc-java-17/jata-service/blob/main/src/main/java/edu/cnm/deepdive/jata/model/entity/UserGame.html){:target="_blank"}
+- [`edu.cnm.deepdive.jata.entity.Fleet`](https://github.com/ddc-java-17/jata-service/blob/main/src/main/java/edu/cnm/deepdive/jata/model/entity/Fleet.html){:target="_blank"}
+- [`edu.cnm.deepdive.jata.entity.Ship`](https://github.com/ddc-java-17/jata-service/blob/main/src/main/java/edu/cnm/deepdive/jata/model/entity/Ship.html){:target="_blank"}
+- [`edu.cnm.deepdive.jata.entity.Shot`](https://github.com/ddc-java-17/jata-service/blob/main/src/main/java/edu/cnm/deepdive/jata/model/entity/Shot.html){:target="_blank"}
 - 
