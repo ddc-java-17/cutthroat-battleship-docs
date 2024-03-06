@@ -19,3 +19,12 @@ uml:
 {% include erd.md %}
 
 {% include ddl.md %}
+
+## Entity Classes
+- [`edu.cnm.deepdive.jata.entity.Game`](api/src-html/edu/cnm/deepdive/jata/model/entity/Game.html){:target="_blank"}
+- [`edu.cnm.deepdive.jata.entity.User`](api/src-html/edu/cnm/deepdive/jata/model/entity/User.html){:target="_blank"}
+- [`edu.cnm.deepdive.jata.entity.UserGame`](api/src-html/edu/cnm/deepdive/jata/model/entity/UserGame.html){:target="_blank"}
+- [`edu.cnm.deepdive.jata.entity.Fleet`](api/src-html/edu/cnm/deepdive/jata/model/entity/Fleet.html){:target="_blank"}
+- [`edu.cnm.deepdive.jata.entity.Ship`](api/src-html/edu/cnm/deepdive/jata/model/entity/Ship.html){:target="_blank"}
+- [`edu.cnm.deepdive.jata.entity.Shot`](api/src-html/edu/cnm/deepdive/jata/model/entity/Shot.html){:target="_blank"}
+- 
