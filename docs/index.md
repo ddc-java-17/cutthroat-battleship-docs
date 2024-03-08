@@ -9,7 +9,7 @@ order: 0
 
 ## Summary
 
-Have you ever thought Battleship was too friendly of a game?  Do you think the pig-pile is a great war-time tactic?  Cutthroat Battleship has both!  Cutthroat Battleship is a multi-player game app taking Battleship! to another level. In a game designed for 2-6 players, you may fight up to five other players!  
+Have you ever thought Battleship was too friendly of a game?  Do you think the pig-pile is a great war-time tactic?  Json + the Arg(nauts) has both!  Json + the Arg(nauts) is a multi-player game app taking Battleship! to another level. In a game designed for 2-6 players, you may fight up to five other players!  
 Turn-based game-play allows each player to see the effect of the other players shots.  Each player in an n-player game gets n shots to fire at whomever they choose. At the end of each players turn, the results of their shots are displayed on EVERYBODY'S screen. Just watch what happens when the first ship is located - ON ANY SCREEN!
 ## Intended users & user stories
 {: menu="Users" }
