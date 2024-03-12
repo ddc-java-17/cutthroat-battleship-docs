@@ -5,8 +5,8 @@ menu: Data Model
 order: 20
 ddl: sql/ddl.sql
 erd:
-  image: img/erd.svg
-  pdf: pdf/erd.pdf
+  image: img/jata-erd.svg
+  pdf: pdf/jata-erd.pdf
 uml:
   image: img/uml-server-side.svg
   pdf: pdf/uml-server-side.pdf
