@@ -33,4 +33,33 @@ Starts a new game, populates player pool.
 | 404 bad request 	| error 	| server unable to be reached.            	|
 
 
+## Submit a shot 
+
+### request 
+
+`POST /jata-world/games/{gameId}/shots`
+
+submits a shot in the game specified by gameId.
+
+
+### Path parameters
+
+| Parameter 	| Description                         	|
+|-----------	|-------------------------------------	|
+| gameId    	| Unique identifier of game resource. 	|
+
+
+### Body
+
+| Type 	| Description         	|
+|------	|---------------------	|
+| Shot 	| Coordinates of shot 	|
+
+
+### Responses 
+
+| Status          	| Body  	| Description                  	|
+|-----------------	|-------	|------------------------------	|
+| 201 ok          	| shot  	| Shot submitted successfully. 	|
+| 400 bad request 	| Error 	| Invalid shot placement.      	|
 
