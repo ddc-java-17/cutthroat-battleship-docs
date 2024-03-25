@@ -101,3 +101,7 @@ The app will store the following peristent data
 {: menu="Stretch goals" }
 
 If you can identify functional elements of the software that you think might not be achievable in the scope of the project, but which would nonetheless add significant value if you were able to include them, list them here. For now, we recommend listing them in order of complexity/amount of work, from the least to the most.
+
+
+
+

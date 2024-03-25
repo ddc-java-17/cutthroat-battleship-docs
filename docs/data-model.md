@@ -1,4 +1,4 @@
----
+[data-model.md](data-model.md)---
 title: Data Model
 description: "UML class diagram, entity-relationship diagram and DDL."
 menu: Data Model
