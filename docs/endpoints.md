@@ -1,4 +1,4 @@
-[data-model.md](data-model.md)---
+---
 title: REST API Endpoints
 description: "HTTP methods, parameters, payloads."
 menu: Endpoints
