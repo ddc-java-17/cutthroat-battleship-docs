@@ -46,5 +46,3 @@ uml:
 - [`edu.cnm.deepdive.jata.service.AbstractGameService`](https://github.com/ddc-java-17/jata-service/blob/main/src/main/java/edu/cnm/deepdive/jata/service/AbstractGameService.java){:target="_blank"}
 - [`edu.cnm.deepdive.jata.service.UserService`](https://github.com/ddc-java-17/jata-service/blob/main/src/main/java/edu/cnm/deepdive/jata/service/UserService.java){:target="_blank"}
 - [`edu.cnm.deepdive.jata.service.AbstractUserService`](https://github.com/ddc-java-17/jata-service/blob/main/src/main/java/edu/cnm/deepdive/jata/service/AbstractUserService.java){:target="_blank"}
-- [`edu.cnm.deepdive.jata.service.ShotStatusService`](https://github.com/ddc-java-17/jata-service/blob/main/src/main/java/edu/cnm/deepdive/jata/service/ShotStatusService.java){:target="_blank"}
-- [`edu.cnm.deepdive.jata.service.AbstractShotStatusService`](https://github.com/ddc-java-17/jata-service/blob/main/src/main/java/edu/cnm/deepdive/jata/service/AbstractShotStatusService.java){:target="_blank"}
