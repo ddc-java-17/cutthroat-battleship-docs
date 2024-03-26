@@ -41,7 +41,6 @@ uml:
 - [`edu.cnm.deepdive.jata.controller.UserController`](https://github.com/ddc-java-17/jata-service/blob/main/src/main/java/edu/cnm/deepdive/jata/controller/UserController.java){:target="_blank"}
 - [`edu.cnm.deepdive.jata.controller.ShipLocationController`](https://github.com/ddc-java-17/jata-service/blob/main/src/main/java/edu/cnm/deepdive/jata/controller/ShipLocationController.java){:target="_blank"}
 - [`edu.cnm.deepdive.jata.controller.ShotController`](https://github.com/ddc-java-17/jata-service/blob/main/src/main/java/edu/cnm/deepdive/jata/controller/ShotController.java){:target="_blank"}
-- [`edu.cnm.deepdive.jata.controller.ExceptionWrangler`](https://github.com/ddc-java-17/jata-service/blob/main/src/main/java/edu/cnm/deepdive/jata/controller/ExceptionWrangler.java){:target="_blank"}
 
 ## Service
 - [`edu.cnm.deepdive.jata.service.GameService`](https://github.com/ddc-java-17/jata-service/blob/main/src/main/java/edu/cnm/deepdive/jata/service/GameService.java){:target="_blank"}
