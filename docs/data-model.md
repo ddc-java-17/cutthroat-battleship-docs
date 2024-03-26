@@ -26,7 +26,6 @@ uml:
 - [`edu.cnm.deepdive.jata.model.entity.UserGame`](https://github.com/ddc-java-17/jata-service/blob/main/src/main/java/edu/cnm/deepdive/jata/model/entity/UserGame.java){:target="_blank"}
 - [`edu.cnm.deepdive.jata.model.entity.ShipLocation`](https://github.com/ddc-java-17/jata-service/blob/main/src/main/java/edu/cnm/deepdive/jata/model/entity/ShipLocation.java){:target="_blank"}
 - [`edu.cnm.deepdive.jata.model.entity.Shot`](https://github.com/ddc-java-17/jata-service/blob/main/src/main/java/edu/cnm/deepdive/jata/model/entity/Shot.java){:target="_blank"}
-- [`edu.cnm.deepdive.jata.model.entity.ShotStatus`](https://github.com/ddc-java-17/jata-service/blob/main/src/main/java/edu/cnm/deepdive/jata/model/entity/ShotStatus.java)
 
 ## Repositories
 - [`edu.cnm.deepdive.jata.model.dao.GameRepository`](https://github.com/ddc-java-17/jata-service/blob/main/src/main/java/edu/cnm/deepdive/jata/model/dao/GameRepository.java){:target="_blank"}
