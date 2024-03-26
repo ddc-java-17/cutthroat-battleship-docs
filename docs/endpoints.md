@@ -8,6 +8,67 @@ order: 25
 
 {% include ddc-abbreviations.md %}
 
+## Get the current user
+
+### Request
+
+`GET /jata-world/users/me`
+
+Gets the current user object and their information.
+
+### Path Parameters
+
+| Parameter | Description                                   |
+|-----------|-----------------------------------------------|
+| key       | UUID (unique identifier for the current user) |
+
+
+### Responses
+
+| Status | Body | Description           |
+|--------|------|-----------------------|
+| 200    | User | Current user returned |
+
+## Update a user
+
+### Request
+
+`PUT /jata-world/users/me`
+
+### Body
+
+| Type   | Description                                          |
+|--------|------------------------------------------------------|
+| String | A new display name to be updated to the current user |
+
+### Response
+
+| Status | Type | Description                                    |
+|--------|------|------------------------------------------------|
+| 200    | User | The current user with the updated display name |
+
+## Find a user by key
+
+### Request
+
+`GET /jata-world/users/{key}`
+
+Finds a user by their key and returns their information.
+
+### Path Parameters
+
+| Parameter | Description                         |
+|-----------|-------------------------------------|
+| key       | UUID (unique identifier for a user) |
+
+
+### Responses
+
+| Status | Body | Description   |
+|--------|------|---------------|
+| 200    | User | User returned |
+
+
 
 ## Start a game
 
