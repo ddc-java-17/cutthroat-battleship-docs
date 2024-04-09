@@ -19,21 +19,33 @@ Basic play through of a game works, with possible update bugs on the first round
 ## Known deficiencies
 {: menu="Deficiencies" }
 This implementation is missing the following:
- - ship is sunk
- - fleet is sunk/player dead
- - turn counter
- - status
- - legal ship instantiation testing
- - join game/add another player
- - end game indication
- - control of returned information (Json View)
- - n-1 shot counter and reduction as players die
+ - fleet is sunk/player dead - works, pop-up message only displays at end of game, not right when sunk.
  - no statistics or reporting services
+ - drawables don't rotate properly 
+ - intermediate update bugs
+ - no extensive tests performed on other android devices 
+ - no tests done is landscape mode
+ - game not fully operational in landscape mode 
+ - start game button gone in landscape mode, can't scroll to get it
+
+
+### Fixed deficiencies 
+- turn counter - implemented
+- status - implemented
+- legal ship instantiation testing - implemented
+- join game/add another player - implemented
+- end game indication - implemented
+- control of returned information (Json View) - implemented
+- n-1 shot counter and reduction as players die - implemented 
+ - ship is sunk - decided against providing this information
 
 
 ## Test environments used
 {: menu="Environments" }
 Database was tested with simple text commands through an HTTP interface.
 Ships were placed using the ships endpoint.  Additional users were added by placing a fake oauthKey into the database and restarting the server.
+Samsung s 23 - physical device
+Samsung galaxy note 20 - physical device 
+Samsung galaxy s 24 - physical device
 
 
