@@ -46,3 +46,7 @@ uml:
 - [`edu.cnm.deepdive.jata.service.AbstractGameService`](https://github.com/ddc-java-17/jata-service/blob/main/src/main/java/edu/cnm/deepdive/jata/service/AbstractGameService.java){:target="_blank"}
 - [`edu.cnm.deepdive.jata.service.UserService`](https://github.com/ddc-java-17/jata-service/blob/main/src/main/java/edu/cnm/deepdive/jata/service/UserService.java){:target="_blank"}
 - [`edu.cnm.deepdive.jata.service.AbstractUserService`](https://github.com/ddc-java-17/jata-service/blob/main/src/main/java/edu/cnm/deepdive/jata/service/AbstractUserService.java){:target="_blank"}
+- [`edu.cnm.deepdive.jata.service.ShipLocationService`](https://github.com/ddc-java-17/jata-service/blob/main/src/main/java/edu/cnm/deepdive/jata/service/ShipLocationService.java){:target="_blank"}
+- [`edu.cnm.deepdive.jata.service.AbstractShipLocationService`](https://github.com/ddc-java-17/jata-service/blob/main/src/main/java/edu/cnm/deepdive/jata/service/AbstractShipLocationService.java){:target="_blank"}
+- [`edu.cnm.deepdive.jata.service.ShotService`](https://github.com/ddc-java-17/jata-service/blob/main/src/main/java/edu/cnm/deepdive/jata/service/ShotService.java){:target="_blank"}
+- [`edu.cnm.deepdive.jata.service.AbstractShotService`](https://github.com/ddc-java-17/jata-service/blob/main/src/main/java/edu/cnm/deepdive/jata/service/AbstractShotService.java){:target="_blank"}
