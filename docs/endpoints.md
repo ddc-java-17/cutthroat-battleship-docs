@@ -70,7 +70,7 @@ Finds a user by their key and returns their information.
 
 
 
-## Start a game
+## Start, join, or rejoin a game
 
 ### request
 
@@ -91,6 +91,31 @@ Starts a new game, populates player pool.
 | status          	| body  	| description                             	|
 |-----------------	|-------	|-----------------------------------------	|
 | 201 created     	| game  	| game started and player pool populated. 	|
+| 404 bad request 	| error 	| server unable to be reached.            	|
+
+
+## Status of a game in progress, Long Poll
+
+### request
+
+`GET /jata-world/games/{key}
+
+Returns the status of the requested game. Long Poll will return game if either the state
+changes within the polling time or if the polling times out without getting a change in
+state.
+
+
+### Body
+
+| Type 	 | Description                       	 |
+|--------|-------------------------------------|
+| key	   | Unique UUID key for the game 	      |
+
+
+### Responses
+
+| status          	| body  	| description                             	|
+|-----------------	|-------	|-----------------------------------------	|
 | 404 bad request 	| error 	| server unable to be reached.            	|
 
 
