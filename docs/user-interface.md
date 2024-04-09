@@ -12,6 +12,8 @@ wireframe:
 
 ## Navigation
 
-Describe (at least) the top-level navigation scheme that will be employed in the app (e.g., navigation drawer, bottom navigation, tabbed navigation).
+> Overflow menu in top right corner, only option is to log out.
+
+> Tabbed navigation during game, allows user's to tap other user's display names at the top of screen during game to navigate to that user's board. Can also swipe right and left to navigate between boards. 
 
 {% include wireframe.md %}
