@@ -1,7 +1,7 @@
 ---
 title: Data Model - Server
 description: "UML class diagram, entity-relationship diagram and DDL."
-menu: Server Data Model
+menu: Data Model-Server
 order: 20
 ddl: sql/ddl.sql
 erd:

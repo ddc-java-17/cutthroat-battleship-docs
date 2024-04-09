@@ -1,7 +1,7 @@
 ---
 title: Data Model - Client
 description: "UML class diagram, entity-relationship diagram and DDL."
-menu: Client Data Model
+menu: Data Model-Client
 order: 20
 uml:
   image: img/uml-client-side.svg
