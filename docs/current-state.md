@@ -9,8 +9,11 @@ order: 40
 
 ## Completion state
 {: menu="Completion" }
-Basic server-side functionality has been completed.  Users may start a game, add ships and place shots.  Fired shots are compared against ships and return a hit value.
-Ships and shots are validated against the edge of the board.  ShipLocations are further validated against other ships in a particular user's fleet.  Users are prohibited from placing additional ships once the first set is placed.
+Basic server-side functionality has been completed.  Users may start a game, set preferences for board size and player count, add and move ships and place shots. Server side defines board size, as well as number of ships and size of those ships for certain board sizes.  Fired shots are compared against ships and return a hit value, also return a drawable so players can tell if it was a hit or miss. Players can toggle shots
+before firing, a red circle will be placed in the square on the grid the user taps, marking where their shot will be fired. That same square can be tapped again to remove that shot and allow it to be placed somewhere else.
+Ships and shots are validated against the edge of the board.  ShipLocations are further validated against other ships in a particular user's fleet.  Users are prohibited from placing additional ships once the first set is placed. Shots are limited based on players in game/ still alive, user's may not place more shots than allowed.
+swiping between boards has been implemented, along with tab navigation where you can just click a user's display name to get to their board. Turn counter implemented, moves on to next user after last user's shots were placed. Fire shots button only appears when it is your turn, so you can't fire out of turn. You win/ you lose pop-ups appear when game ends, along with a home button that navigates you back to the home screen.
+Basic play through of a game works, with possible update bugs on the first round. Registers when a user's fleet is sunk, removing them from the turn counter, so they can no longer fire and lowers the shot count for user's still alive by one.
 
 
 ## Known deficiencies
