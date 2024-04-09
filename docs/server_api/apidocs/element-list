@@ -1,0 +1,9 @@
+edu.cnm.deepdive.jata
+edu.cnm.deepdive.jata.configuration
+edu.cnm.deepdive.jata.controller
+edu.cnm.deepdive.jata.model
+edu.cnm.deepdive.jata.model.dao
+edu.cnm.deepdive.jata.model.dto
+edu.cnm.deepdive.jata.model.entity
+edu.cnm.deepdive.jata.service
+edu.cnm.deepdive.jata.view
