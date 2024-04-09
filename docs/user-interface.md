@@ -1,7 +1,7 @@
 ---
 title: User Interface
 description: "Primary user interface elements"
-#menu: UI
+menu: UI
 order: 10
 wireframe:
   image: img/wireframe.svg
