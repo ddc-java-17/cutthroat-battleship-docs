@@ -1,5 +1,5 @@
 ---
-title: Data Model
+title: Data Model - Server
 description: "UML class diagram, entity-relationship diagram and DDL."
 menu: Data Model
 order: 20
